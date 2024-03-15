@@ -164,8 +164,8 @@
 	box-sizing: border-box;
 }
 .gallery{
-/*	background-image: url(img/jpeg1.jpg);*/
-	background: rgb(83, 94, 74);
+	background-image: url(https://st2.depositphotos.com/3244131/6317/v/950/depositphotos_63175639-stock-illustration-seamless-pattern-of-tools.jpg);
+/*	background: rgb(83, 94, 74);*/
 	padding: 70px 0 82px;
 }
 .gallery__title{
