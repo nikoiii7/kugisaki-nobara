@@ -1,0 +1,238 @@
+.header{
+	background: #2C2C2C;
+}
+.container{
+	max-width: 1110px;
+	margin: 0 auto ;
+}
+.container_header{
+	display: flex;
+	padding: 29px;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav_list{
+	display: flex;
+	list-style: none;
+}
+.nav_item{
+	margin-right: 63px;
+	color: #FFF;
+    font-family: "Nico Moji";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hero-block{
+	background: #535E4A;
+}
+.container_hero-block{
+	display: flex;
+	justify-content: space-between;
+	padding: 60px 0 60px;
+}
+.hero-block__img{
+	width: 600px;
+}
+.hero-block__content{
+	max-width: 550px;
+}
+.hero-block__title{
+	color: #E4E4E4;
+	font-family: "Nico Moji";
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 30px;
+}
+.hero-block__text{
+	color: #E4E4E4;
+	font-family: "Nico Moji";
+	font-size: 20px;
+	font-style: normal;
+	margin-bottom: 30px;
+}
+.hero-block__link{
+	border-radius: 6px;
+	background: #865A3B;
+	box-shadow: 0px 2px 13px 0px rgba(63, 47, 28, 0.67);
+	padding: 14px 20px;
+	color: #C4966C;
+	font-family: "Nico Moji";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration: none;
+}
+.about{
+	background: #535E4A;
+}
+.container_about{
+	padding: 72px 0 82px;
+}
+.about__title{
+	color: #E4E4E4;
+	font-family: "Nico Moji";
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.about__content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    color: #E4E4E4;
+	font-family: "Nico Moji";
+	font-size: 25px;
+	font-style: normal;
+}
+.skills{
+	max-width: 581px;
+}
+.skills_title{
+	color: #E4E4E4;
+	font-family: "Nico Moji";
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.skills__list{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0;
+}
+.skills__name{
+	font: Nico Moji;
+    font weight: 400;
+    font size: 30pxpx;
+    row height: 30px;
+    letter spacing: 0%;
+    align: Align left;
+    color: rgb(228, 228, 228);
+}
+.skills_full{
+	height: 6px;
+	width: 49%;
+	background: rgb(72, 84, 68);
+}
+.skills_done1{
+	height: 6px;
+	width: 49%;
+	background: rgb(197, 132, 84);
+}
+.skills_done2{
+	height: 6px;
+	width: 98%;
+	background: rgb(197, 132, 84);
+}
+.skills_done3{
+	height: 6px;
+	width: 70%;
+	background: rgb(197, 132, 84)
+}
+.video{
+	background: rgb(83, 94, 74);
+}
+.container_video{
+	padding: 72px 0 189px;
+}
+.video__title{
+	font: Nico Moji;
+    font weight: 400;
+    font size: 100px;
+    row height: 89px;
+    letter spacing: 0%;
+    align: Align left;
+	color: rgb(228, 228, 228);
+    text-align: center;
+    margin-bottom: 60px;
+}
+.video__video{
+	width: 100%;
+	height: 668px;
+	border: 50px solid rgba(27, 27, 27, 0.28);
+	border-radius: 50px;
+	box-sizing: border-box;
+}
+.gallery{
+/*	background-image: url(img/jpeg1.jpg);*/
+	background: rgb(83, 94, 74);
+	padding: 70px 0 82px;
+}
+.gallery__title{
+	color: rgb(228, 228, 228);
+	font: Nico Moji;
+    font weight: 400;
+    font size: 48pxpx;
+    row height: 48px;
+    letter spacing: 0%;
+    text-align: center;
+    margin-bottom: 39px;
+}
+.gallery__list{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+.gallery__item{
+	width: 33.3%;
+	height: 392px;
+}
+.gallery__img{
+	width: 100%;
+	height: 100%;
+}
+.footer{
+	background: rgb(44, 44, 44);
+}
+.container_footer{
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__title{
+	font: Nico Moji;
+	font-weight: 400;
+	font-size: 30px;
+	row height: 30px;
+	letter spacing: 0%;
+	align: Align left;
+	color: #FFFFFF;
+}
+.footer__item{
+    width: 62px ;
+    height: 68px;
+}
+.footer__img{
+	width: 100%;
+}
+
+.footer__text{
+	color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.footer__list{
+	display: flex;
+	list-style: none;
+}
+.footer__item{
+	margin-right: 40px;
+}
+
+
+
